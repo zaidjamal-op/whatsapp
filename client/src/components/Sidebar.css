@@ -1,0 +1,77 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  flex: 0.35;
+}
+
+.sidebar__header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.sidebar__headerRight {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 10vw;
+}
+
+.sidebar__headerRight > .MuiSvgIcon-root {
+  margin-right: 2vw;
+  font-size: 24px !important;
+}
+
+.sidebar__search {
+  display: flex;
+  align-items: center;
+  background: color #f6f6ff;
+  height: 39px;
+  padding: 10px;
+}
+
+.sidebar__searchContainer {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+  height: 35px;
+  border-radius: 20px;
+  margin-bottom: 5px;
+}
+
+.sidebar__searchContainer > .MuiSvgIcon-root {
+  color: gray;
+  padding: 10px;
+}
+
+.sidebar__searchContainer > input {
+  border: none;
+  outline-width: 0;
+  margin-left: 10px;
+}
+.sidebar__columns {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.sidebar_columns_nav {
+  justify-content: space-evenly;
+}
+.sidebar_columns_nav .nav_item {
+  margin: auto;
+}
+
+.sidebar_columns_nav .nav_link {
+  color: rgb(41, 226, 57);
+}
+
+.sidebar__columns__contacts {
+  background-color: white;
+  overflow-y: scroll;
+}
+
+.sidebar__columns .sidebar__nav .link {
+  color: rgb(21, 216, 21);
+}
